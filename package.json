@@ -1,0 +1,22 @@
+{
+    "name": "@davidgolding/ail",
+    "version": "0.1.0",
+    "type": "module",
+    "bin": {
+        "ail": "./bin/ail.js"
+    },
+    "main": "./dist/index.js",
+    "files": [
+        "dist",
+        "templates",
+        "bin"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "pnpm build"
+    },
+    "devDependencies": {
+        "typescript": "latest",
+        "@types/node": "latest"
+    }
+}
