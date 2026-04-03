@@ -20,11 +20,11 @@ CRITICAL: You MUST execute every step below IN ORDER. Do NOT skip any required s
 
    Pass the plan file path from step 2 so ail-review can verify requirements completeness.
 
-5. `/compound-engineering:todo-resolve`
+5. `/ail:todo-resolve`
 
-6. `/compound-engineering:test-browser`
+6. `/ail:test-browser`
 
-7. `/compound-engineering:feature-video`
+7. `/ail:feature-video`
 
 8. Output `<promise>DONE</promise>` when video is in PR
 

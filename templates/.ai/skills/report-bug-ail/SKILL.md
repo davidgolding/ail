@@ -1,12 +1,12 @@
 ---
 name: report-bug-ail
-description: Report a bug in the compound-engineering plugin
+description: Report a bug in the ail plugin
 argument-hint: "[optional: brief description of the bug]"
 ---
 
 # Report a Agentic Intelligence Layer Plugin Bug
 
-Report bugs encountered while using the compound-engineering plugin. This skill gathers structured information and creates a GitHub issue for the maintainer.
+Report bugs encountered while using the ail plugin. This skill gathers structured information and creates a GitHub issue for the maintainer.
 
 ## Step 1: Gather Bug Information
 
@@ -106,17 +106,17 @@ Use the GitHub CLI to create the issue:
 
 ```bash
 gh issue create \
-  --repo EveryInc/compound-engineering-plugin \
-  --title "[compound-engineering] Bug: [Brief description]" \
+  --repo EveryInc/ail-plugin \
+  --title "[ail] Bug: [Brief description]" \
   --body "[Formatted bug report from Step 3]" \
-  --label "bug,compound-engineering"
+  --label "bug,ail"
 ```
 
 **Note:** If labels don't exist, create without labels:
 ```bash
 gh issue create \
-  --repo EveryInc/compound-engineering-plugin \
-  --title "[compound-engineering] Bug: [Brief description]" \
+  --repo EveryInc/ail-plugin \
+  --title "[ail] Bug: [Brief description]" \
   --body "[Formatted bug report]"
 ```
 
@@ -132,10 +132,10 @@ After the issue is created:
 ```
 Bug report submitted successfully!
 
-Issue: https://github.com/EveryInc/compound-engineering-plugin/issues/[NUMBER]
-Title: [compound-engineering] Bug: [description]
+Issue: https://github.com/EveryInc/ail-plugin/issues/[NUMBER]
+Title: [ail] Bug: [description]
 
-Thank you for helping improve the compound-engineering plugin!
+Thank you for helping improve the ail plugin!
 The maintainer will review your report and respond as soon as possible.
 ```
 

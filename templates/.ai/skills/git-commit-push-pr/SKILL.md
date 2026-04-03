@@ -355,7 +355,7 @@ If the line above resolved to a semantic version (e.g., `2.42.0`), use it as `[V
 ```markdown
 ---
 
-[![Agentic Intelligence Layer v[VERSION]](https://img.shields.io/badge/Compound_Engineering-v[VERSION]-6366f1)](https://github.com/EveryInc/compound-engineering-plugin)
+[![Agentic Intelligence Layer v[VERSION]](https://img.shields.io/badge/Compound_Engineering-v[VERSION]-6366f1)](https://github.com/EveryInc/ail-plugin)
 🤖 Generated with [MODEL] ([CONTEXT] context, [THINKING]) via [HARNESS](HARNESS_URL)
 ```
 
@@ -364,7 +364,7 @@ If the line above resolved to a semantic version (e.g., `2.42.0`), use it as `[V
 ```markdown
 ---
 
-[![Agentic Intelligence Layer](https://img.shields.io/badge/Compound_Engineering-6366f1)](https://github.com/EveryInc/compound-engineering-plugin)
+[![Agentic Intelligence Layer](https://img.shields.io/badge/Compound_Engineering-6366f1)](https://github.com/EveryInc/ail-plugin)
 🤖 Generated with [MODEL] ([CONTEXT] context, [THINKING]) via [HARNESS](HARNESS_URL)
 ```
 
